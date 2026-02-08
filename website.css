@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    background: linear-gradient(90deg, #6a7cff, #7b4fc9);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 3;
+}
+.card {
+    background-color: white;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 20px;
+}
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+.button {
+    padding: 12px;
+    border-radius: 8px;
+    flex: 1;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+.blue {
+    background: blue;
+}
+.pink {
+    background: #d448bf89;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    background: whitesmoke;
+}
+.menu {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.menu a {
+    color: black;
+    padding: 20px;
+    border-left: 3px solid blue;
+    background: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.info {
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info p {
+    border: 1px solid gray;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.footer {
+    background-color: black;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.links a {
+    background: #555;
+    color: white;
+    text-decoration: none;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
